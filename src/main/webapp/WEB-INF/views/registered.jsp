@@ -4,16 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Welcome</title>
+<title>Goodbye</title>
 </head>
 <body>
-	${greeting}
+	Hello ${candidate.name},
+	<br>
+	You've been registered for our cource part 2.
 	<br><br>
-	<h2>Please register for the next course:</h2><br>
-	<form action="register" method="post">
-	<label>Name: </label><input type="text" name="name"></input><br><br>
-	<label>Email: </label><input type="text" name="email"></input><br><br>
-	<input type="submit" value="Register"/>
-	</form>
+	The Mobyus team.
+	<br><br>
+	<a href="${pageContext.request.contextPath}/goodbye">Log out</a>
 </body>
 </html>
