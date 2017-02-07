@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Welcome</title>
+<title>Goodbye</title>
 </head>
 <body>
-	Greeting : ${greeting}
-	<br><br><a href=${link}>Klik hier om verder te gaan.</a>
+	We hope you enjoyed ${title} and we'll see you again soon!
+	<br><br>
+	The Mobyus team.
 </body>
 </html>

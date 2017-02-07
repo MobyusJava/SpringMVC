@@ -2,6 +2,11 @@ package be.mobyus.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+/**
+ * Initialize class in order to make sure the configuration gets loaded and applied
+ * @author Stijn
+ *
+ */
 public class HelloWorldInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
  
     @Override
